@@ -301,10 +301,10 @@ void assert_failed(uint8_t *file, uint32_t line)
 
   
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-![Screenshot 2023-05-11 153848](https://github.com/AnandhamoorthyKarthikeyan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475998/f74b058d-edad-44e8-8b08-cb4248175ebc)
+![Screenshot 2023-09-23 175346](https://github.com/Shanmugavel29/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/114382660/66845239-8832-408e-bb7d-511b291b1769)
 
 
- 
+
  
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
