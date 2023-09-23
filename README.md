@@ -195,9 +195,9 @@ int main(void)
  Lcd_HandleTypeDef lcd;
  lcd=Lcd_create(ports,pins,GPIOB,GPIO_PIN_0,GPIOB,GPIO_PIN_1,LCD_4_BIT_MODE);
  Lcd_cursor(&lcd, 0,0);
- Lcd_string(&lcd," YOUR ROLL NO UP TO 16 NOS");
+ Lcd_string(&lcd," AIDS");
  Lcd_cursor(&lcd, 1,0);
- Lcd_string(&lcd,"YOUR NAME UP TO 16 CHAR");
+ Lcd_string(&lcd,"Shanmugavel.RM");
   while (1)
   {
     
@@ -295,11 +295,11 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
-![Screenshot 2023-05-11 153833](https://github.com/AnandhamoorthyKarthikeyan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475998/e06418de-9847-494c-9b0f-7c3fee35fe89)
+![exp4(mc)](https://github.com/Shanmugavel29/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/114382660/e0ce9b90-f0e0-4032-807b-e795f8fc13f2)
 
 
- 
- 
+
+  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 ![Screenshot 2023-05-11 153848](https://github.com/AnandhamoorthyKarthikeyan/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/119475998/f74b058d-edad-44e8-8b08-cb4248175ebc)
 
