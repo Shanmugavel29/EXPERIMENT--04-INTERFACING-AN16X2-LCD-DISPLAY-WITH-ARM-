@@ -174,6 +174,10 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 ```
+DEVELOPED BY: SHANMUGAVEL.RM
+REGISTER.NO: 212222230142
+```
+```
 #include "main.h"
 
 void SystemClock_Config(void);
