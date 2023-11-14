@@ -18,12 +18,6 @@ interfaces Datasheet - production data Features
    8×1, 8×2, 10×2, 16×1, etc. But the most used one is the 16*2 LCD, hence we are using it here.
 
 All the above mentioned LCD display will have 16 Pins and the programming approach is also the same and hence the choice is left to you. 
-Below is the Pinout and Pin Description of 16x2 LCD Module:
-
-![image](https://user-images.githubusercontent.com/36288975/233858086-7b1a88a2-f941-475c-86c2-b3bae68bdf7e.png)
-![image](https://user-images.githubusercontent.com/36288975/233857710-541ac1c2-786c-4dfc-b7b5-e3a4868a9cb6.png)
-![image](https://user-images.githubusercontent.com/36288975/233857733-05df5dbf-1a1e-479e-85bb-8014a39ad878.png)
-
 4-bit and 8-bit Mode of LCD:
 
 The LCD can work in two different modes, namely the 4-bit mode and the 8-bit mode. In 4 bit mode we send the data nibble by nibble, first upper nibble and then lower nibble. For those of you who don’t know what a nibble is: a nibble is a group of four bits, so the lower four bits (D0-D3) of a byte form the lower nibble while the upper four bits (D4-D7) of a byte form the higher nibble. This enables us to send 8 bit data.
@@ -128,8 +122,6 @@ Jump to second line, position 2
 15. After creation of the circuit as per requirement
 16. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
 17. click on debug and simulate using simulation as shown below 
-## CIRCUIT DIAGRAM 
-![image](https://user-images.githubusercontent.com/36288975/233857974-bda6200e-4f88-4e7b-b189-4da80210fa23.png)
 ## STM 32 CUBE PROGRAM :
 ```
 DEVELOPED BY: SHANMUGAVEL.RM
@@ -248,24 +240,9 @@ void assert_failed(uint8_t *file, uint32_t line)
   
 }
 #endif 
-
 ```
-
-
-
-
 ## Output screen shots of proteus  :
 ![exp4(mc)](https://github.com/Shanmugavel29/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/114382660/e0ce9b90-f0e0-4032-807b-e795f8fc13f2)
-
-
-
-  
- ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-![Screenshot 2023-09-23 175346](https://github.com/Shanmugavel29/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/114382660/66845239-8832-408e-bb7d-511b291b1769)
-
-
-
- 
 ## Result :
 Interfacing a digital output and digital input  with ARM microcontroller are simulated in proteus and the results are verified.
 
